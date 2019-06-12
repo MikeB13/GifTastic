@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Giphy Generator</h1>
+        <p>Click on an existing green button to generate a giphy of that character. Or, add your very own character and generate a giphy of it.
+    </header>
+
+    <section class="container">
+
+        <!--User enters input here to add a giphy button-->
+        <form>
+            <input type="text" placeholder="Add an animal" id="animalInput">
+            <!-- submit button triggers new gif to be added -->
+            <input id="addGif" type="submit" value="Add a gif">
+        </form>
+
+        <!-- gif buttons dumped here-->
+        <div id="animalView"></div>
+
+    </section>
+
+    <!-- gif images dumped here -->
+    <div id="addAnimal"></div>
+
+
+</body>
+
+</html>
